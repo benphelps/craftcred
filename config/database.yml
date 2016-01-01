@@ -1,6 +1,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  hostname: localhost
   database: craftcred
   pool: 5
   username: postgres
